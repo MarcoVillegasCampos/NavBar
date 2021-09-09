@@ -1,0 +1,78 @@
+
+
+*{
+    font-family: 'Roboto';
+    src: url(./../fonts/Roboto-Italic.ttf)
+
+}
+
+
+
+div{
+    
+    display: flex;
+    align-content: space-between;
+    
+    background-color: gray;
+
+    
+    
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+
+.nav-links{
+
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    list-style: none;
+    color: white;
+    margin-left: 890px;
+
+    
+
+
+}
+
+.nav-title{
+    color: white;
+}
+
+body{
+    height: 800px;
+    background-color:White;
+}
+
+.nav-links a{
+
+ 
+    list-style: none;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    margin-left: 40px;
+    text-decoration: none;
+
+
+
+
+}
+.btn{
+    margin-left: 40px;
+    color: white;
+    background-color: turquoise;
+    box-shadow:5px black;
+
+}
+
+h1{
+    margin-left: 10px;
+}
